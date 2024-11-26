@@ -1,0 +1,27 @@
+{
+    "name": "test-components", 
+    "version": "1.0.0", 
+    "description": "My awesome React component library", 
+    "main": "dist/index.js", 
+    "module": "dist/index.es.js", 
+    "files": [ "dist" ],
+    "scripts": {
+      "build": "rollup -c", 
+      "prepublishOnly": "npm run build" 
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jamesalexmorganwork/test-components.git" 
+    },
+    "keywords": [
+      "react",
+      "components",
+      "ui" 
+    ],
+    "author": "Your Name", 
+    "license": "MIT", 
+    "bugs": {
+      "url": "https://github.com/jamesalexmorganwork/test-components/issues" 
+    },
+    "homepage": "https://github.com/jamesalexmorganwork/test-components#readme"
+}
